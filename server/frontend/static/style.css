@@ -124,3 +124,16 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.div-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  gap: 16px; /* Adds space between columns */
+  padding-top: 20px;
+}
+
+.div-column {
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  gap: 16px; /* Optional: Adds space between the elements */
+}
