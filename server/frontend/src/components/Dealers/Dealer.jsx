@@ -29,6 +29,7 @@ const Dealer = () => {
       method: "GET"
     });
     const retobj = await res.json();
+    console.log("API response:", retobj)
     
     if(retobj.status === 200) {
       let dealerobjs = Array.from(retobj.dealer)
